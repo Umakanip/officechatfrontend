@@ -1,0 +1,20 @@
+{
+  "$schema": "./schemas/tsconfig-schema.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "types": ["node", "react", "react-dom"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "allowJs": false // <-- Consider removing or setting to false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build"]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "officechatapplication",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/roboto": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^5.16.1",
+    "@mui/material": "^5.16.1",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-icons": "^3.0.0",
+    "@types/socket.io-client": "^3.0.0",
+    "agora-rtc-react": "^2.2.0",
+    "agora-rtc-sdk-ng": "^4.22.0",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "install": "^0.13.0",
+    "lodash": "^4.17.21",
+    "mssql": "^11.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "^5.0.1",
+    "react-scroll-to-bottom": "^4.2.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "styled-components": "^6.1.11",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && npm run copy:config:dist",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "copy:config:dist": "shx cp staticwebapp.config.json build/"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "repository": "https://umarees310@bitbucket.org/officechat/pcs.git",
+  "author": "Umakani <umakani310@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "shx": "^0.3.4"
+  }
+}
